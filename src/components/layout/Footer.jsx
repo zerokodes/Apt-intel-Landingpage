@@ -56,14 +56,14 @@ export default function Footer() {
           </div>
 
           {/* Get in touch + HQ */}
-          <div className="footer-contact-col" style={{width: 160, display: 'inline-flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 21}}>
-            <div className="footer-contact-inner" style={{width: 144, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 24}}>
-              <div className="footer-contact-label" style={{alignSelf: 'stretch', textAlign: 'center', color: 'rgba(250, 250, 250, 0.70)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', textTransform: 'uppercase', lineHeight: '22.40px', letterSpacing: 0.53, wordWrap: 'break-word'}}>Get in touch</div>
-              <a href="mailto:aptintel.contact@gmail.com" className="footer-email footer-contact-email" style={{alignSelf: 'stretch', color: 'rgba(250, 250, 250, 0.70)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', textDecoration: 'underline', lineHeight: '22.40px', wordWrap: 'break-word'}}>aptintel.contact@gmail.com</a>
-            </div>
-            <div className="footer-hq" style={{alignSelf: 'stretch', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 8}}>
-              <div className="footer-hq-label" style={{alignSelf: 'stretch', textAlign: 'right', color: 'rgba(250, 250, 250, 0.70)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: '22.40px', wordWrap: 'break-word'}}>Global HQ</div>
-              <div className="footer-hq-value" style={{color: 'rgba(250, 250, 250, 0.70)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: '19.60px', wordWrap: 'break-word'}}>Operating worldwide</div>
+          <div className="footer-contact-col" style={{display: 'inline-flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 21}}>
+            <div className="footer-contact-inner" style={{display: 'inline-flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24}}>
+              <div className="footer-contact-label" style={{color: 'rgba(250, 250, 250, 0.70)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', textTransform: 'uppercase', lineHeight: '22.40px', letterSpacing: 0.53, wordWrap: 'break-word'}}>Get in touch</div>
+              <a href="mailto:aptintel.contact@gmail.com" className="footer-email footer-contact-email" style={{color: 'rgba(250, 250, 250, 0.70)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', textDecoration: 'underline', lineHeight: '22.40px', whiteSpace: 'nowrap'}}>aptintel.contact@gmail.com</a>
+              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 4, alignSelf: 'stretch'}}>
+                <div className="footer-hq-label" style={{color: 'rgba(250, 250, 250, 0.70)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: '22.40px'}}>Global HQ</div>
+                <div className="footer-hq-value" style={{color: 'rgba(250, 250, 250, 0.70)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: '19.60px'}}>Operating within Africa</div>
+              </div>
             </div>
           </div>
         </div>
