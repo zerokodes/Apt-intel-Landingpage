@@ -5,14 +5,6 @@ import icon4 from "../../assets/icons/usecase-icon4.svg";
 import icon5 from "../../assets/icons/usecase-icon5.svg";
 import icon6 from "../../assets/icons/usecase-icon6.svg";
 
-const chips = [
-  { icon: icon1, label: 'Financial Services' },
-  { icon: icon2, label: 'Healthcare & Logistics' },
-  { icon: icon3, label: 'Government & Public Sector', isCircle: true },
-  { icon: icon4, label: 'Insurance & Risk' },
-  { icon: icon5, label: 'Supply Chain' },
-  { icon: icon6, label: 'Energy & Utility' },
-];
 
 function Chip({ icon, label, isCircle }) {
   return (

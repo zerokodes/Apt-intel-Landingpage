@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
             <div style={{...body}}>If you have questions or comments about this Privacy Policy, please contact us at:</div>
             <div style={{paddingTop: 24, paddingBottom: 96, ...body}}>
               <span style={{color: '#1A1A1A', fontWeight: '500'}}>Apt Intel<br />Email: </span>
-              <a href="mailto:hello@aptintel.com" style={{color: '#004182', fontWeight: '500', textDecoration: 'underline'}}>hello@aptintel.com</a>
+              <a href="mailto:aptintel.contact@gmail.com" style={{color: '#004182', fontWeight: '500', textDecoration: 'underline'}}>aptintel.contact@gmail.com</a>
             </div>
           </div>
 

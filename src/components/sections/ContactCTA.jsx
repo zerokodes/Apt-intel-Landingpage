@@ -32,8 +32,8 @@ export default function ContactCTA() {
           <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 32}}>
 
             {/* Email button */}
-            <a href="mailto:hello@aptintel.com" className="btn-cta-email" style={{paddingLeft: 24.21, paddingRight: 24.21, paddingTop: 12.11, paddingBottom: 12.11, background: '#FAFAFA', boxShadow: '0px 6.05px 22.70px rgba(255, 255, 255, 0.20)', borderRadius: 10.59, display: 'inline-flex', justifyContent: 'center', alignItems: 'center', gap: 6.05, textDecoration: 'none'}}>
-              <div style={{color: '#004182', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '22.40px', wordWrap: 'break-word'}}>hello@aptintel.com</div>
+            <a href="mailto:aptintel.contact@gmail.com" className="btn-cta-email" style={{paddingLeft: 24.21, paddingRight: 24.21, paddingTop: 12.11, paddingBottom: 12.11, background: '#FAFAFA', boxShadow: '0px 6.05px 22.70px rgba(255, 255, 255, 0.20)', borderRadius: 10.59, display: 'inline-flex', justifyContent: 'center', alignItems: 'center', gap: 6.05, textDecoration: 'none'}}>
+              <div style={{color: '#004182', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '22.40px', wordWrap: 'break-word'}}>aptintel.contact@gmail.com</div>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#004182" strokeWidth="1.26" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
