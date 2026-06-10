@@ -490,7 +490,7 @@
     gap: 24px !important;
   }
   .wwd-card {
-    width: 358px !important;
+    width: calc(100% - 32px) !important;
     height: 416px !important;
     padding: 24px !important;
     border-radius: 16px !important;
@@ -921,7 +921,16 @@
   .footer-contact-inner {
     width: 100% !important;
     align-items: center !important;
+    align-self: auto !important;
     gap: 8px !important;
+  }
+  .footer-contact-inner > div:last-child {
+    align-items: center !important;
+    align-self: auto !important;
+  }
+  .footer-hq-label,
+  .footer-hq-value {
+    text-align: center !important;
   }
   .footer-contact-label {
     color: #FAFAFA !important;
