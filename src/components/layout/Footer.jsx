@@ -2,10 +2,10 @@ import footerLogo from "../../assets/icons/footer-logo.svg";
 import footerWordmark from "../../assets/icons/footer-wordmark.svg";
 
 const navLinks = [
-  { label: 'Services', href: '#services' },
-  { label: 'Process', href: '#process' },
-  { label: 'Why Us', href: '#why-us' },
-  { label: 'Use Cases', href: '#use-cases' },
+  { label: 'Services',  href: '/#services'  },
+  { label: 'Process',   href: '/#process'   },
+  { label: 'Why Us',    href: '/#why-us'    },
+  { label: 'Use Cases', href: '/#use-cases' },
 ];
 
 const linkStyle = {

@@ -20,7 +20,7 @@ export default function ContactCTA() {
 
           {/* Headline */}
           <div style={{paddingBottom: 18.16, display: 'flex', flexDirection: 'column'}}>
-            <div className="contactcta-headline" style={{width: 581.15, textAlign: 'center', color: '#FAFAFA', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>Ready to improve how your business runs?</div>
+            <div className="contactcta-headline" style={{width: 581.15, textAlign: 'center', color: '#FAFAFA', fontSize: 42, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '52px', wordWrap: 'break-word'}}>Ready to improve how your<br className="contactcta-headline-br-desktop" />business runs?</div>
           </div>
 
           {/* Subtext */}

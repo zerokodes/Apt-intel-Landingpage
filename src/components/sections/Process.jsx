@@ -34,7 +34,7 @@ export default function Process() {
           </div>
 
           {/* Headline */}
-          <div className="process-headline" style={{width: 508.50, textAlign: 'center', color: '#FAFAFA', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>How we turn process<br className="process-headline-br" /><span className="process-headline-indent">into performance</span></div>
+          <div className="process-headline" style={{width: 508.50, textAlign: 'center', color: '#FAFAFA', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>How we turn process<br className="process-headline-br" /><br className="process-headline-br-desktop" />into performance</div>
 
           {/* Subtext */}
           <div className="process-subtext" style={{width: 508.50, paddingTop: 18.16, textAlign: 'center', color: '#C5C5C5', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: '24px', wordWrap: 'break-word'}}>We move from understanding how work<br className="process-subtext-br" /><span className="process-subtext-l2"> happens today to building smarter</span><br className="process-subtext-br" /><span className="process-subtext-l3"> systems for tomorrow.</span></div>

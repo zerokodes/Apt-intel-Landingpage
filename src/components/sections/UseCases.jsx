@@ -32,7 +32,7 @@ export default function UseCases() {
           <div style={{height: 32, paddingLeft: 9, paddingRight: 9, paddingTop: 3, paddingBottom: 3, background: 'rgba(0,161,255,0.10)', borderRadius: 32, display: 'inline-flex', justifyContent: 'center', alignItems: 'center'}}>
             <div style={{color: '#00A1FF', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '600', textTransform: 'uppercase', lineHeight: '16px', letterSpacing: 0.26}}>Where we fit best</div>
           </div>
-          <div className="usecases-headline" style={{width: 508.50, textAlign: 'center', color: '#FAFAFA', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>Where smarter<br className="usecases-headline-br" />systems matter most</div>
+          <div className="usecases-headline" style={{width: 508.50, textAlign: 'center', color: '#FAFAFA', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>Where smarter<br className="usecases-headline-br" /><br className="usecases-headline-br-desktop" />systems matter most</div>
           <div className="usecases-subtext" style={{width: 508.50, textAlign: 'center', color: '#D6D3D1', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: '24px', wordWrap: 'break-word'}}>Different industries can improve outcomes<br className="usecases-subtext-br" />through better systems, automation, and<br className="usecases-subtext-br" />AI. We partner with operational-heavy<br className="usecases-subtext-br" />sectors ready to improve how they run.</div>
         </div>
 

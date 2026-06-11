@@ -45,8 +45,8 @@ export default function WhyUs() {
           {/* Headline + subtext */}
           <div className="whyus-header-text" style={{alignSelf: 'stretch', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16}}>
             <div className="whyus-headline-wrap" style={{alignSelf: 'stretch'}}>
-              <span className="whyus-headline" style={{color: '#1A1A1A', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>We understand how<br className="whyus-headline-br" /></span>
-              <span className="whyus-headline" style={{color: '#004182', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}><span className="whyus-headline-indent1">process design affects</span><br className="whyus-headline-br" /><span className="whyus-headline-indent2">performance.</span></span>
+              <span className="whyus-headline" style={{color: '#1A1A1A', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>We understand how<br className="whyus-headline-br" /><br className="whyus-headline-br-desktop" /></span>
+              <span className="whyus-headline" style={{color: '#004182', fontSize: 48, fontFamily: 'DM Sans', fontWeight: '700', lineHeight: '56px', wordWrap: 'break-word'}}>process design<br className="whyus-headline-br-desktop" /><br className="whyus-headline-br" />affects performance.</span>
             </div>
             <div className="whyus-subtext" style={{width: 454.02, color: '#3C3C3C', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: '22.40px', wordWrap: 'break-word'}}>We know how real work happens, and we know how to improve it with the right technology.</div>
           </div>

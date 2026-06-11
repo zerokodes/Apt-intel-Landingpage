@@ -238,6 +238,12 @@
   box-shadow: 0px 32px 56px -12px rgba(0, 0, 0, 0.22);
 }
 
+/* Desktop-only breaks — shown by default, hidden on mobile */
+.process-headline-br-desktop { display: inline; }
+.whyus-headline-br-desktop { display: inline; }
+.usecases-headline-br-desktop { display: inline; }
+.contactcta-headline-br-desktop { display: inline; }
+
 /* Mobile-only breaks hidden by default */
 .hero-headline-br { display: none; }
 .hero-body-br { display: none; }
@@ -323,6 +329,10 @@
   .whyus-headline-br { display: block !important; }
   .whyus-headline-indent1 { padding-left: 20px !important; }
   .whyus-headline-indent2 { padding-left: 0px !important; }
+  .whyus-headline-br-desktop { display: none !important; }
+  .process-headline-br-desktop { display: none !important; }
+  .usecases-headline-br-desktop { display: none !important; }
+  .contactcta-headline-br-desktop { display: none !important; }
   .wwd-body-br { display: block !important; }
   .process-headline-br { display: block !important; }
   .process-subtext-br { display: block !important; }
